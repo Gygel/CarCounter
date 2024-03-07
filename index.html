@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <title>Counting cars</title>
+    <link rel ="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Car counting</h1>
+
+    <div class="box">
+        <label><b>Segment</b></label>
+        <input type="text" id="segment-el"><br>
+    </div>
+    <div class="box">
+        <label><b>Street name</b></label>
+        <input type="text" id="street-name-el"><br>
+    </div>
+
+    <div class="box">
+        <div class="normal-cars">
+            <h2>Normal cars</h2>
+
+            <div class="well-parked">
+                <h2 id="NORM_WP-counter-el">0</h2>
+                <button class ="button-general" id = "NORM_WP-counter-btn" onclick="increment('NORM_WP-counter-el')">WP INCREMENT</button>
+            </div>
+
+            <div class = "half-parked"> 
+                <h2 id="NORM_HP-counter-el">0</h2>
+                <button class ="button-general" id = "NORM_HP-counter-btn" onclick="increment('NORM_HP-counter-el')">HP INCREMENT</button>
+            </div>
+
+            <div class="Badly-parked">
+                <h2 id="NORM_BP-counter-el">0</h2>
+                <button class ="button-general" id = "NORM_BP-counter-btn" onclick="increment('NORM_BP-counter-el')">BP INCREMENT</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="electric-cars">
+            <h2>Electric cars</h2>
+
+            <div class="well-parked">
+                <h2 id="ELEC_WP-counter-el">0</h2>
+                <button class ="button-general" id = "ELEC_WP-counter-btn" onclick="increment('ELEC_WP-counter-el')">WP INCREMENT</button>
+            </div>
+
+            <div class = "half-parked"> 
+                <h2 id="ELEC_HP-counter-el">0</h2>
+                <button class ="button-general" id = "ELEC_HP-counter-btn" onclick="increment('ELEC_HP-counter-el')">HP INCREMENT</button>
+            </div>
+
+            <div class="Badly-parked">
+                <h2 id="ELEC_BP-counter-el">0</h2>
+                <button class ="button-general" id = "ELEC_BP-counter-btn" onclick="increment('ELEC_BP-counter-el')">BP INCREMENT</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <button class="button-general" id="save-btn" onclick="save()">Save entries</button>
+    </div>
+
+    <table id="table-el">
+        <tbody id="tbody-el">
+            <tr>
+                <th>Segment</th>
+                <th>Street name</th>
+                <th>State</th>
+                <th>Normal</th>
+                <th>Electric</th>
+                <th>Total</th>
+            </tr>
+
+            <!--TABLE ROWS FORMAT
+            <tr>
+                <td rowspan="4"></td>
+                <td rowspan="4"></td>
+            </tr>
+
+            <tr>
+                <th>Well parked</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>Half parked</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>badly parked</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>-->
+
+        </tbody>
+
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+}
+h1{
+    background-color: royalblue;
+    padding: 20px;
+}
+
+h2{
+    padding: 0px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label{
+    padding: 10px;
+}
+
+
+.box{
+padding: 30px;
+
+}
+.well-parked, .half-parked,.badly-parked{
+    height: 70px;
+    width: 150px;
+    display: inline-block;
+    margin: 0 2.5%;
+}
+
+
+
+
+
+.button-general{
+    cursor: pointer;
+    height:50px;
+    width: 150px;
+    font-size: 60% ;
+}
+
+#NORM_WP-counter-btn,#ELEC_WP-counter-btn{
+    background-color: green;
+}
+#NORM_HP-counter-btn,#ELEC_HP-counter-btn{
+    background-color: yellow;
+}
+#NORM_BP-counter-btn,#ELEC_BP-counter-btn{
+    background-color: red;
+}
