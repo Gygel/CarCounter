@@ -25,16 +25,19 @@
             <div class="well-parked">
                 <h2 id="NORM_WP-counter-el">0</h2>
                 <button class ="button-general" id = "NORM_WP-counter-btn" onclick="increment('NORM_WP-counter-el')">WP INCREMENT</button>
+                <button class ="button-general" id = "NORM_WP-decounter-btn" onclick="decrement('NORM_WP-counter-el')">WP DECREMENT</button>
             </div>
 
             <div class = "half-parked"> 
                 <h2 id="NORM_HP-counter-el">0</h2>
                 <button class ="button-general" id = "NORM_HP-counter-btn" onclick="increment('NORM_HP-counter-el')">HP INCREMENT</button>
+                <button class ="button-general" id = "NORM_hP-decounter-btn" onclick="decrement('NORM_HP-counter-el')">HP DECREMENT</button>
             </div>
 
             <div class="Badly-parked">
                 <h2 id="NORM_BP-counter-el">0</h2>
                 <button class ="button-general" id = "NORM_BP-counter-btn" onclick="increment('NORM_BP-counter-el')">BP INCREMENT</button>
+                <button class ="button-general" id = "NORM_BP-decounter-btn" onclick="decrement('NORM_BP-counter-el')">BP DECREMENT</button>
             </div>
 
         </div>
@@ -47,16 +50,19 @@
             <div class="well-parked">
                 <h2 id="ELEC_WP-counter-el">0</h2>
                 <button class ="button-general" id = "ELEC_WP-counter-btn" onclick="increment('ELEC_WP-counter-el')">WP INCREMENT</button>
+                <button class ="button-general" id = "ELEC_WP-decounter-btn" onclick="decrement('ELEC_WP-counter-el')">WP DECREMENT</button>
             </div>
 
             <div class = "half-parked"> 
                 <h2 id="ELEC_HP-counter-el">0</h2>
                 <button class ="button-general" id = "ELEC_HP-counter-btn" onclick="increment('ELEC_HP-counter-el')">HP INCREMENT</button>
+                <button class ="button-general" id = "ELEC_HP-decounter-btn" onclick="decrement('ELEC_HP-counter-el')">HP DECREMENT</button>
             </div>
 
             <div class="Badly-parked">
                 <h2 id="ELEC_BP-counter-el">0</h2>
                 <button class ="button-general" id = "ELEC_BP-counter-btn" onclick="increment('ELEC_BP-counter-el')">BP INCREMENT</button>
+                <button class ="button-general" id = "ELEC_BP-decounter-btn" onclick="decrement('ELEC_BP-counter-el')">BP DECREMENT</button>
             </div>
         </div>
     </div>
@@ -65,7 +71,7 @@
         <button class="button-general" id="save-btn" onclick="save()">Save entries</button>
     </div>
 
-    <table id="table-el">
+    <table>
         <tbody id="tbody-el">
             <tr>
                 <th>Segment</th>
